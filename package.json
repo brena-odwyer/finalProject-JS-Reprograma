@@ -4,7 +4,7 @@
   "description": "Projeto final com tema livre criado como requisito para a finalização do bootcamp de Imersão JS na Reprograma.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
