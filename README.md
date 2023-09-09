@@ -8,7 +8,6 @@ O objetivo principal deste projeto é criar uma plataforma abrangente e inclusiv
 A plataforma será uma fonte acessível de recursos e oportunidades como: cursos gratuitos, mentorias, oficinas, conferências, eventos e comunidade e networking.
 
 
-
 ### Contexto Técnico
 Essa implementação visa simular uma arquitetura de back-end com aplicação de conceitos POO, SOLID, Clean Code e com a implementação de testes.
 

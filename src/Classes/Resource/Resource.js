@@ -5,6 +5,8 @@ class Resource {
     city;
     online;
     description;
+    static count = 0;
+    id;
 
 
     static allResources = [];
@@ -15,7 +17,10 @@ class Resource {
         this.theme = theme;
         this.city = city;
         this.online = online;
+
         this.constructor.allResources.push({name: this.name})
+        
+        this.id = ++Resource.count
     }
 
     set description(newDescription){

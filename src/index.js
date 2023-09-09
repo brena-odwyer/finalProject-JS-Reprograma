@@ -1,6 +1,6 @@
-const { Resource } = require("./Resource/Resource");
-const { User } = require("./User/User");
-const { Admin } = require("./User/Admin");
+const { Resource } = require("./Classes/Resource/Resource");
+const { User } = require("./Classes/User/User");
+const { Admin } = require("./Classes/User/Admin");
 
 //class Resource
 const reprograma = new Resource("Reprograma", "https://www.reprograma.com.br/", "technology", "São Paulo", true);
@@ -20,4 +20,5 @@ console.log("---------------------------")
 const camila = new Admin ("Camila", "camila@gmail.com", "Rio de Janeiro", "front-end developer", true)
 console.log(camila)
 console.log(camila.getEmailUser("Brena"))
+console.log(camila.getEmailUser("Raquel"))
 console.log("---------------------------")
