@@ -12,13 +12,13 @@ A plataforma será uma fonte acessível de recursos e oportunidades como: cursos
 Essa implementação visa simular uma arquitetura de back-end com aplicação de conceitos POO, SOLID, Clean Code e com a implementação de testes.
 
 ### Implementações das features realizadas
-- [ ] Criação da classe da entidades a serem modeladas
-- [ ] Criação de estrutura de pastas e arquivos com responsabilidades bem divididas
-- [ ] Criação de testes aplicados a cada use-case de cada classe criada
-- [ ] Criação de simulação de banco de dados para a manipulação de dados das clases
-- [ ] Criação estrutura de controlers com API
+- [X] Criação da classe da entidades a serem modeladas
+- [X] Criação de estrutura de pastas e arquivos com responsabilidades bem divididas
+- [X] Criação de testes aplicados a cada use-case de cada classe criada
 
 ### Implementações de features futuras
+- [ ] Criação de simulação de banco de dados para a manipulação de dados das clases
+- [ ] Criação estrutura de controlers com API
 - [ ] Criação estrutura de front-end
 - [ ] Deploy
 
@@ -52,13 +52,13 @@ This implementation aims to simulate a back-end architecture using Object-Orient
 
 
 ### Implementações das features realizadas
-- [ ] Creation of the classes to be modeled
-- [ ] Creation of folder and file structure with well-divided responsibilities
-- [ ]  Creation of tests applied to each use-case of each created class
-- [ ] Creation of a database simulation for data manipulation of the classes
-- [ ] Creation of controller structure with an API
+- [X] Creation of the classes to be modeled
+- [X] Creation of folder and file structure with well-divided responsibilities
+- [X]  Creation of tests applied to each use-case of each created class
 
 ### Implementações de features futuras
+- [ ] Creation of a database simulation for data manipulation of the classes
+- [ ] Creation of controller structure with an API
 - [ ] Creation of a front-end structure
 - [ ] Deployment
 

@@ -4,8 +4,8 @@ class Workshop extends Resource {
     date;
     mode;
 
-    constructor(date, mode){
-        super()
+    constructor(name, website, theme, city, online, date, mode){
+        super(name, website, theme, city, online)
         this.date = date;
         this.mode = mode;
     }

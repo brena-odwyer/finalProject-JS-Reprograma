@@ -1,6 +1,7 @@
 const { Resource } = require("./Classes/Resource/Resource");
 const { User } = require("./Classes/User/User");
 const { Admin } = require("./Classes/User/Admin");
+const { Workshop } = require("./Classes/Resource/Workshop")
 
 //class Resource
 const reprograma = new Resource("Reprograma", "https://www.reprograma.com.br/", "technology", "São Paulo", true);
@@ -22,3 +23,9 @@ console.log(camila)
 console.log(camila.getEmailUser("Brena"))
 console.log(camila.getEmailUser("Raquel"))
 console.log("---------------------------")
+
+//class Workshop
+const workshop = new Workshop ("Career for all", "website", "career", "Rio de Janeiro", false, "11/set/2023", "on-site")
+workshop.description = "Workshiop Career for all description"
+console.log(workshop)
+console.log(workshop.workshopInformation)

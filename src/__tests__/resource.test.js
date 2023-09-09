@@ -1,7 +1,12 @@
 const { Resource } = require("../Classes/Resource/Resource");
 
 describe('Testing Class Resource', () => {
-    const casinha = new Resource("Casinha", "casinha.com.br", "lgbt inclusion", "Rio de Janeiro", false);
+    let casinha; 
+
+    beforeEach(() => {
+        casinha = new Resource("Casinha", "casinha.com.br", "lgbt inclusion", "Rio de Janeiro", false);
+    });
+    
     it("should create a new instace Resource", () => {
         expect(casinha).toBeInstanceOf(Resource);
         expect(casinha.name).toBe("Casinha");
